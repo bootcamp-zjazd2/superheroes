@@ -1,4 +1,5 @@
 import random
+import super_karen
 
 # here should be a list of possible choices
 heroes = [super_karen.super_Karen, super_karen.super_Karen, super_karen.super_Karen]
@@ -26,8 +27,8 @@ while hero_A.life_points > 0 and hero_B.life_points > 0:
           f"and {hero_A.name} has {hero_A.life_points} life points.")
     hero_A_attack = hero_A.attack()
     hero_B_attack = hero_B.attack()
-    print(f"{hero_A.name} inflicts {hero_A_attack} damage points.\n"
-          f"{hero_B.name} inflicts {hero_B_attack} damage points.")
+    print(f"{hero_A.name} attacks with {weapon_A} and inflicts {hero_A_attack} damage points.\n"
+          f"{hero_B.name} attacks with {weapon_B} and inflicts {hero_B_attack} damage points.")
 
     if hero_A_attack > hero_B_attack:
         hero_B.decrease_life(hero_A_attack - hero_B_attack)
