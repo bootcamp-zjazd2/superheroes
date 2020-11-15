@@ -4,3 +4,6 @@ class Heros:
 
     def test_fun(self):
         print(self.wiek)
+
+    def more_age(self):
+        self.wiek +=1
