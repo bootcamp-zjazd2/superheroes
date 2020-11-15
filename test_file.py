@@ -7,3 +7,5 @@ class Heros:
 
     def more_age(self):
         self.wiek +=1
+
+print('ok')
