@@ -10,5 +10,5 @@ class Jameson:
 
     def decrease_life(self, x):
         self.life_points -= x
-        return self.life_points
 
+Jameson = Jameson()
