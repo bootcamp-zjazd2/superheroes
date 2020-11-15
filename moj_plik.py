@@ -10,4 +10,4 @@ class Heroes:
 
     def decrease_life(self,x):
         self.life_points -= x
-Squirrelman = Heroes('Squirrelman', ['nut throw', 'scratching'], 100)
+Squirrelman = Heroes('Squirrelman', ['nut throw', 'scratching'])
