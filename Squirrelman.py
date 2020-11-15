@@ -6,7 +6,7 @@ class Heroes:
         self.life_points = random.randint(1,100)
 
     def attack(self):
-        random.randint(1,10)
+        return random.randint(1,10)
 
     def decrease_life(self,x):
         self.life_points -= x
