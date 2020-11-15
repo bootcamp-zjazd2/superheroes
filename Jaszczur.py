@@ -12,3 +12,4 @@ class Wielki_Jaszczur():
     def decrease_life(self,damage):
         self.life_points -= damage
 
+Jaszczur=Wielki_Jaszczur()
