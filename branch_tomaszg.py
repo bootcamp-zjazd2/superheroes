@@ -1,20 +1,14 @@
 import random
-class Superman:
+class Jameson:
     def __init__(self, name, superpowers, life_points):
-        self.name = name
-        self.superpowers = superpowers
-        superpowers = ['latanie', 'oddychanie pod woda', 'fire resisance']
-        self.life_points = life_points
+        self.name = 'Jameson'
+        self.superpowers = ['fire punch','ice punch', 'water punch']
+        self.life_points = random.randint(1,10)
 
     def attack(self):
-        points = random.randint(1,10)
-        return points
+        return random.randint(1,10)
 
     def decrease_life(self, x):
-        self.life_points = self.life_points - x
+        self.life_points -= x
         return self.life_points
 
-superman = Superman('Jameson', 'fire resistance', random.randint(1,10))
-print(superman.name, superman.superpowers, superman.life_points)
-
-print(superman.decrease_life(1))
