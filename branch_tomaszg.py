@@ -12,4 +12,5 @@ class Jameson:
         self.life_points -= x
 
 Jameson = Jameson()
+print('ok2')
 print('ok')
