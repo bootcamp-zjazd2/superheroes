@@ -10,6 +10,6 @@ class FlyingCarrot():
     def decrease_life(self,x):
         self.life_points-=x
 
-FlyingCarrot = FlyingCarrot()
+FlyingCarrotHero = FlyingCarrot()
 
 
