@@ -12,4 +12,3 @@ class FlyingCarrot():
 
 FlyingCarrotHero = FlyingCarrot()
 
-
