@@ -1,3 +1,5 @@
+import random
+
 class Superman():
     def __init__(self):
         self.name = 'Superdog'
