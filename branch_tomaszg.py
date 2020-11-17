@@ -1,6 +1,7 @@
 import random
-class Jameson:
-    def __init__(self, name, superpowers, life_points):
+
+class Jameson():
+    def __init__(self):
         self.name = 'Jameson'
         self.superpowers = ['fire punch','ice punch', 'water punch']
         self.life_points = random.randint(1,10)
@@ -12,5 +13,3 @@ class Jameson:
         self.life_points -= x
 
 Jameson = Jameson()
-print('ok2')
-print('ok')

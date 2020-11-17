@@ -1,6 +1,6 @@
 import random
 
-class IronMan():
+class IronMan:
     def __init__(self):
         self.name = 'Tony Stark'
         self.superpowers = ['sonic_attack', 'missile_projection']

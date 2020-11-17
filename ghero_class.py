@@ -1,5 +1,5 @@
 import random
-class Superhero():
+class Superhero:
     def __init__(self):
         self.name = 'Ice Queen'
         self.superpowers = ['Ice Cannon', 'Blizzard', 'Snow Wind']

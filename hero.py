@@ -19,12 +19,12 @@ class HumanSpider:
     def __init__(self):
         self.name = "HumanSpider"
         self.superpowers = ['climb walls','web-shooter','spider-sense']
-        self.lifepoints = random.randint(1,10)
+        self.life_points = random.randint(1,10)
 
     def attack(self):
         return random.randint(1,10)
     def decrease_life(self,x):
-        self.lifepoints= self.lifepoints - x
+        self.life_points= self.lifepoints - x
         return self.lifepoints
 
 HumanSpider = HumanSpider()
